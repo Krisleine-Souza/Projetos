@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Premium</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container nav">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      <span>Restaurante Premium</span>
+    </div>
+
+    <!-- MENU -->
+    <nav class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- BOTÃO -->
+    <a href="https://wa.me/5541999999999" class="btn" target="_blank">
+      Pedir
+    </a>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>Sabor que conquista na primeira mordida</h1>
+    <p>Comida fresca, entrega rápida e qualidade em cada prato</p>
+
+    <a href="https://wa.me/5541999999999" class="btn big" target="_blank">
+      Fazer pedido
+    </a>
+  </div>
+</section>
+
+<!-- CARDÁPIO -->
+<section id="cardapio" class="section">
+  <h2>Mais pedidos</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="">
+      <h3>Hambúrguer Artesanal</h3>
+      <p>Pão brioche, carne suculenta e queijo especial</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="">
+      <h3>Prato Executivo</h3>
+      <p>Comida caseira com qualidade</p>
+    </div>
+
+    <div class="card" onclick="pedirProduto('Hambúrguer Artesanal')">
+      <img src="pizza.avif" alt="">
+      <h3>Pizza Especial</h3>
+      <p>Massa artesanal e ingredientes frescos</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section dark sobre-bg">
+  <div class="overlay"></div>
+
+  <div class="container about">
+    <div class="about-text">
+      <h2>Qualidade e sabor</h2>
+      <p>
+        Trabalhamos com ingredientes frescos e preparo rápido
+        para entregar sempre o melhor para você.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Peça agora pelo WhatsApp</h2>
+
+  <a href="https://wa.me/5541999999999" class="btn big" target="_blank">
+    Fazer pedido
+  </a>
+</section>
+
+<footer id="contato">
+  <p>Restaurante Premium • Sua cidade</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
